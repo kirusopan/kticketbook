@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: url(../image/c2.jpg);
+    background-size: cover;
+}
+
+
+/* login form start */
+
+.me {
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 660px;
+    width: 200px;
+    background-color: rgb(248, 99, 76);
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.login_container {
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 560px;
+    height: 500px;
+    border-radius: 30px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.login_container form {
+    display: grid;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.user {
+    display: flex;
+    margin-left: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.luser-img {
+    float: left;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.login input {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.login-form button {
+    font-size: 18px;
+    margin-left: 130px;
+    text-align: center;
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+    color: white;
+    background: transparent;
+    border-bottom-color: aqua;
+    border-radius: 10px;
+    border: none;
+}
+
+.login-form button:hover {
+    background: aqua;
+}
+
+.cr {
+    margin-top: 20px;
+    color: white;
+    margin-left: 125px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.cr:hover {
+color: aqua;
+}
+.small:hover{
+    color: aqua;
+}
+
+.text-center a {
+    margin-left: 270px;
+    color: white;
+    text-decoration: none;
+}
